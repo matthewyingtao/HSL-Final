@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Contact Us</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link rel="icon" type="image/png" sizes="192x192" href="logo/android-icon-192x192.png">
+</head>
+
+<body>
+	<script src="script.js">
+
+	</script>
+	<!-- Header -->
+	<header>
+		<!-- Logo -->
+		<div id="logo-link">
+			<a href="index.html">
+				<img src="logo/HSL-Logo-White.png" id="logo" alt="logo">
+			</a>
+		</div>
+
+		<button id="hamburger" type="button" onclick="hamburger()">
+			☰
+		</button>
+		<!-- Nav Links -->
+		<div id="link-container">
+			<div class="dropdown">
+				<a href="tournaments.html" class="nav-link">Tournaments</a>
+				<div class="dropdown-content">
+					<a href="#">Dota 2</a>
+					<a href="loltournament.html">League of Legends</a>
+					<a href="#">Clash Royale</a>
+				</div>
+			</div>
+			<div class="dropdown">
+				<a href="index.html" class="nav-link">News</a>
+			</div>
+			<div class="dropdown">
+				<a href="contact.html" class="nav-link">Contact Us</a>
+			</div>
+			<div class="dropdown">
+				<a href="index.html" class="nav-link">About Us</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="page-content">
+		
+		<div class="contact-box">
+			<!-- Contact Form -->
+			<div id="form-container">
+				<h2>Contact Us</h2>
+				<div class="form-row">
+					<input type="text" placeholder="Your name" maxlength="128" value="">
+					<input type="text" placeholder="Your email" maxlength="128" value="">
+				</div>
+				<textarea placeholder="Your message" rows="8"></textarea>
+				<button id="submit-button" type="submit">Send Message</button>
+			</div>
+			<!-- Image on side -->
+			<div class="side-img-contact">
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer>
+		<p class="copyright"><span>
+			© Matthew Tao 2020
+		</span></p>
+		<p class="footer-text">
+			Proudly supported by Logitech
+		</p>
+		<!-- Social Media icons -->
+		<div class="icon-container">
+			<div class="icon-div">
+				<a href="https://www.facebook.com/letsplaylivehq/" target="-blank">
+					<img src="logo/facebook-icon.png" class="icon" alt="Facebook icon">
+				</a>
+			</div>
+			<div class="icon-div">
+				<a href="https://twitter.com/LetsPlayLiveHQ" target="-blank">
+					<img src="logo/twitter-icon.png" class="icon" alt="Twitter icon">
+				</a>
+			</div>
+			<div class="icon-div">
+				<a href="https://gmail.com" target="-blank">
+					<img src="logo/mail-icon.png" class="icon" alt="Email icon">
+				</a>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
